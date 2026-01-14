@@ -28,7 +28,7 @@ function App() {
   }
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/of/" >
       <>
         {!open && (
           <div className='flex flex-col justify-center items-center h-80'>
